@@ -2,7 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 import { Inter } from "next/font/google";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 
 const InterFont = Inter({
   subsets: ['latin'],
@@ -12,7 +12,7 @@ const InterFont = Inter({
 const Projects = () => {
   const [activeButton, setActiveButton] = useState(''); 
 
-  const setActive = (buttonName) => {
+  const setActive = (buttonName: SetStateAction<string>) => {
     setActiveButton(buttonName); 
   };
 
