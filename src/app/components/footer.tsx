@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="customGray text-white py-6 shadow">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col md:flex-row md:items-center">
-            <h2 className="text-3xl font-bold mb-2 md:mb-0">Let's Work Together -</h2>
+            <h2 className="text-3xl font-bold mb-2 md:mb-0">{`Let's Work Together -`}</h2>
           </div>
   
           {/* Email Section */}
