@@ -26,7 +26,7 @@ const Presentation = () => {
 
       <div className="relative text-center -mt-72 z-20 w-full md:px-4 px-20 max-w-md md:max-w-lg mx-auto animate-fade-in-up">
         <h1 className="text-sm md:text-2xl font-bold green-animate pb-4">Hello! I am Miguel</h1>
-        <p className="text-lg md:text-base leading-relaxed">
+        <p className="text-lg md:text-base leading-relaxed text-white">
          {` I'm a Junior Frontend Developer with 2 years of hands-on experience in web development, specializing in React and Next.js. Throughout my journey, I have built a solid foundation in creating responsive, user-friendly interfaces and modern web applications. My passion for coding, along with my continuous drive to learn, allows me to deliver clean, efficient, and scalable code.`}
         </p>
 
