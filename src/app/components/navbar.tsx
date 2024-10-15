@@ -18,7 +18,7 @@ const NavBar = () => {
     return (
         <>
             <div className='fixed top-0 left-0 w-full z-50 flex justify-between items-center py-3 px-11 shadow-lg mb-2 customGray transparentGray'>
-                <div className={`${oleoScript.className} text-2xl`}>
+                <div className={`${oleoScript.className} text-2xl text-white`}>
                     Miguel
                 </div>
                 <div className='hidden md:flex justify-center flex-grow text-white'>
