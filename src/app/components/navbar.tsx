@@ -21,7 +21,7 @@ const NavBar = () => {
                 <div className={`${oleoScript.className} text-2xl`}>
                     Miguel
                 </div>
-                <div className='hidden md:flex justify-center flex-grow'>
+                <div className='hidden md:flex justify-center flex-grow text-white'>
                     <div className='flex space-x-6'>
                         <span className='mx-3 px-4 cursor-pointer active:text-green-700 transition duration-100 ease-in-out'><a href="#presentation">Home</a></span>
                         <span className='mx-3 px-4 cursor-pointer active:text-green-700 transition duration-100 ease-in-out'><a href="#aboutMe">About Me</a></span>
@@ -31,7 +31,7 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div className='md:hidden'>
-                    <button onClick={toggleMenu} className='transition duration-500 ease-in-out'>
+                    <button onClick={toggleMenu} className='transition duration-500 ease-in-out text-white'>
                         <Menu />
                     </button>
                 </div>
