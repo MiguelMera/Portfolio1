@@ -54,7 +54,15 @@ const Projects = () => {
         <div className="flex justify-center w-full animate-fade-in-up">
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 w-full max-w-screen-lg">
     <div className="w-full rounded overflow-hidden shadow-lg bg-gray-800 variprojects">
-      <img className="w-full h-auto" src="/osas.png" alt="image" />
+      <img className="w-full h-auto" src="/lifenweeks.png" alt="image" />
+      <div className="px-6 py-4">
+        <h2 className="font-bold text-xl mb-2 text-white">Life in weeks app UI</h2>
+        <p className="text-gray-400 text-base">a simple UI for a simple app</p>
+      </div>
+    </div>
+
+    <div className="w-full rounded overflow-hidden shadow-lg bg-gray-800 variprojects">
+      <img className="w-full h-auto" src="#" alt="image" />
       <div className="px-6 py-4">
         <h2 className="font-bold text-xl mb-2 text-white">Placeholder</h2>
         <p className="text-gray-400 text-base">put a project here, bro</p>
@@ -62,15 +70,7 @@ const Projects = () => {
     </div>
 
     <div className="w-full rounded overflow-hidden shadow-lg bg-gray-800 variprojects">
-      <img className="w-full h-auto" src="/osas.png" alt="image" />
-      <div className="px-6 py-4">
-        <h2 className="font-bold text-xl mb-2 text-white">Placeholder</h2>
-        <p className="text-gray-400 text-base">put a project here, bro</p>
-      </div>
-    </div>
-
-    <div className="w-full rounded overflow-hidden shadow-lg bg-gray-800 variprojects">
-      <img className="w-full h-auto" src="/osas.png" alt="image" />
+      <img className="w-full h-auto" src="#" alt="image" />
       <div className="px-6 py-4">
         <h2 className="font-bold text-xl mb-2 text-white">Placeholder</h2>
         <p className="text-gray-400 text-base">put a project here, bro</p>
